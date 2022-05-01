@@ -1,0 +1,6 @@
+_misc/
+
+Gemfile.lock
+
+.rubocop-*
+.vscode

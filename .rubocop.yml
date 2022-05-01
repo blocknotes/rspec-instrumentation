@@ -1,0 +1,16 @@
+---
+inherit_from:
+  - https://relaxed.ruby.style/rubocop.yml
+
+require:
+  - rubocop-packaging
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - _misc/*
+    - bin/*
+    - vendor/**/*
+  NewCops: enable
