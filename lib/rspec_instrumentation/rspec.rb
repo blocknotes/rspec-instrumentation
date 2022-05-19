@@ -7,6 +7,7 @@ module RSpecInstrumentation
     def setup(config, service:)
       case service
       when :new_relic then NewRelic.new(config)
+      when :sentry then Sentry.new(config)
       else warn("Unknown service: #{service}")
       end
     end

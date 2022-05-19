@@ -14,3 +14,7 @@ AllCops:
     - bin/*
     - vendor/**/*
   NewCops: enable
+
+Naming/FileName:
+  Exclude:
+    - lib/rspec-instrumentation.rb

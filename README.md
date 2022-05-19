@@ -2,8 +2,11 @@
 
 RSpec instrumentation component to measure performances, profile and monitor the test suite using an external service.
 
+> DISCLAIMER: this is an initial version, major changes will probably happens in the first releases
+
 Support for:
 - New Relic
+- Sentry APM (partial for now)
 
 Setup the gem, execute the test suite, check the results in the service interface.
 
@@ -14,7 +17,7 @@ Setup the gem, execute the test suite, check the results in the service interfac
 
 ### New Relic
 
-- Configure New Relic on your application
+- Configure New Relic on your application (also adding the gem 'newrelic_rpm' to the Gemfile)
 - Add an initializer in your app (_config/initializers/new_relic.rb_) with:
 
 ```rb
