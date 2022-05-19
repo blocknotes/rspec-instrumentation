@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['lib/**/*', 'LICENSE.txt', 'README.md']
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'rspec', '~> 3.11'
+  spec.add_runtime_dependency 'rspec', '~> 3.0'
 end
